@@ -1,0 +1,40 @@
+
+
+.basicInfo{
+    font-size: 1em;
+}
+
+.welcome{
+    font-size: 4em;
+    color: aliceblue;
+}
+
+.beginButtons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.beginbtn{
+    margin-top: 3em;
+}
+
+.begin{
+    padding-top: 5em;
+}
+
+
+body, html {
+        /* stylelint-disable-line */
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "KoHo", helvetica, arial, sans-serif;
+    font-size: 16px; 
+    height: 100%;
+    background-image: none;
+
+    width:100%;
+    background-color: #f4f1ea;
+}
+  
