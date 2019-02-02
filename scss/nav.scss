@@ -38,21 +38,21 @@
   }
 
   &__link {
-    font-weight: bold;
+    font-weight: 400;
     color: #000;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 0.1em;
 
-    transition: color $transition;
+    transition: transform $transition;
 
     &:hover {
-      color: $color-2;
+      transform: scale(1.1);
     }
   }
 
   &__item--active &__link {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   &__cart {
@@ -60,6 +60,8 @@
 
     display: flex;
     justify-content: center;
+
+    text-transform: lowercase;
 
     @media (min-width: 800px) {
       @include columns(2);
@@ -77,13 +79,13 @@
 
     text-decoration: none;
 
-    background-image: url("img/cart.svg");
-    background-repeat: no-repeat;
+    //background-image: url("img/cart.svg");
+    //background-repeat: no-repeat;
 
-    transition: color $transition;
+    transition: transform $transition;
 
     &:hover {
-      color: $color-2;
+      transform: scale(1.1);
     }
 
     @media (min-width: $max-width) {
