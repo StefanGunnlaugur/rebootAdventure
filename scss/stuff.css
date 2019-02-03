@@ -86,8 +86,8 @@ input[type=text], select {
 
 .logoRest{
     margin: auto;
-    width: 30%;
-    margin-top: 4vh;
+    width: 15%;
+    margin-top: 8vh;
 }
 
 .logoFirst{
@@ -135,5 +135,4 @@ input[type=text], select {
 
 .description{
     margin-left: 1em;
-    margin-top: -10vh;
 }
