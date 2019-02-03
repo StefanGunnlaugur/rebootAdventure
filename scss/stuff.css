@@ -34,6 +34,9 @@ height: 100%;
     width: 100%;
 }
 
+.logoImg{
+    width: 100%;
+}
 
 input[type=text], select {
     width: 80%;
@@ -54,8 +57,11 @@ input[type=text], select {
 }
 
 .imagediv{
+    animation-name: fadein;
+    animation-duration: 2s;
     margin: auto;
     width: 70%;
+    margin-top: -6vh;
 }
 
 .gobuttons{
@@ -65,6 +71,29 @@ input[type=text], select {
     margin: auto;
     margin-top: 2em;
     width: 90%;
+}
+
+.description{
+    width: 90%;
+    font-size: 0.7em;
+    margin-bottom: -4vh;
+}
+
+.logo{
+    margin: auto;
+    width: 30%;
+}
+
+.logoRest{
+    margin: auto;
+    width: 30%;
+    margin-top: 4vh;
+}
+
+.logoFirst{
+    margin: auto;
+    width: 30%;
+    margin-top: 8vh;
 }
 
 .gobtn{
@@ -81,6 +110,7 @@ input[type=text], select {
     flex-direction: column;
     text-align:center;
     margin: auto;
+    margin-bottom: -7vh;
 }
 
 .backbtn{
@@ -96,3 +126,9 @@ input[type=text], select {
     margin-top: 2em;
     width: 90%;
 }
+
+@keyframes fadein {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }

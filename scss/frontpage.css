@@ -17,11 +17,11 @@
 }
 
 .welcomeHeader {
-  padding: 8vh 0;
+  padding: 0;
+  margin: -1em;
 }
 
 .welcome {
-  padding-top: 10vh;
   font-size: 4em;
   color: aliceblue;
 }
